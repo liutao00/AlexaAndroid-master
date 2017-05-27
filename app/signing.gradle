@@ -1,0 +1,13 @@
+android {
+
+  signingConfigs {
+      releaseConfig {
+          storeFile file("E:\\AndroidStudioProjects\\keystore\\key.storeFile")
+          storePassword 'TAOSTOREPASS'
+          keyAlias "TAOKEYALIAS"
+          keyPassword 'TAOKEYPASS'
+      }
+  }
+
+
+}
